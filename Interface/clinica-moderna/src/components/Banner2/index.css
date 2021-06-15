@@ -1,0 +1,54 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap'
+    );
+
+.Tudo{
+    background-color: #00A9B6;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.Tudo a{
+    margin-top: 10px;
+    margin-left: 10px;
+
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+
+    height: 50px;
+}
+
+/* Banner */
+.Banner {
+    display: flex;
+    
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Banner img{
+    position: relative;
+    width: 438px;
+    height: 321px;
+}
+
+.Titulo {
+    position: relative;
+
+    color: #ffffff;
+
+    font-size: 36px;
+    font-family: 'Archivo_600SemiBold', sans-serif;
+
+    width: 512px;
+    height: 91px;
+
+    font-weight: bold;
+    font-style: normal;
+    line-height: 39px;
+}
