@@ -10,7 +10,7 @@ import "./index.css";
 
 const animatedComponents = makeAnimated();
 
-export default function Cadastrar() {
+export default function CadastrarPaciente() {
   return (
     <div className="V">
       <Header />
@@ -24,11 +24,15 @@ export default function Cadastrar() {
               <input className="Input" type="text" />
             </label>
 
-            <label className="Label">
+            <label className="Label3">
               <titulo>
-                Link da Sua Foto <text>( comece com //http )</text>
+                CPF
               </titulo>
-              <input className="Input" name="avatar" />
+              <input className="Input2" name="cpf" type="number" />
+              <titulo>
+                RG
+              </titulo>
+              <input className="Input2" name="cpf" type="number" />
             </label>
 
             <label className="Label">

@@ -2,6 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 
 import Cadastrar from './pages/cadastrar';
+import CadastrarPaciente from './pages/casdastrarPaciente';
 import EsqueceuSenha from './pages/esqueceuSenha';
 import Login from './pages/login';
 
@@ -13,7 +14,7 @@ export default function App(){
             <Route path="/" component={Login} exact/> 
             <Route path="/esqueceuSenha" component={EsqueceuSenha} exact/>
             <Route path="/cadastrar" component={Cadastrar} exact/>      
-            <Route path="/" />       
+            <Route path="/cadastrarPaciente" component={CadastrarPaciente} exact/>       
         </Switch>
     </Router>
     );

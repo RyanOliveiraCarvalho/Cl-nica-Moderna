@@ -2,7 +2,7 @@ import React from "react";
 
 import { IoWarningOutline } from 'react-icons/io5';
 
-import Header from "../../components/Header";
+import Header from "../Header";
 import Select from "react-select";
 import makeAnimated from "react-select/animated";
 

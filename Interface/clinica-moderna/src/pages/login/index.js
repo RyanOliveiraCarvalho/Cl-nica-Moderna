@@ -2,8 +2,6 @@ import React, {useState} from 'react';
 
 import {FaEye, FaEyeSlash} from 'react-icons/fa';
 
-import { Button } from '@material-ui/core';
-
 import {Link} from 'react-router-dom';
 
 import Baner from '../../components/Banner';
@@ -49,7 +47,7 @@ export default function Login(){
 
                 <h4>ou</h4>
 
-                <Link href="/painel" className="Entrar" type="submit">
+                <Link to="/cadastrarPaciente" className="Entrar" type="submit">
                     Entrar
                 </Link>
 
