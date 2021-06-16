@@ -1,0 +1,185 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap'
+    );
+
+.Container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Login */
+
+.Login{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login img{
+    margin-top: 50px;
+    width: 273px;
+    height: 79px;
+}
+
+.Login h3{
+    text-align: center !important;
+
+    color: #3F3D56;
+
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.Email{
+    margin-bottom: 10px;
+}
+
+.Senha{
+    display: flex;
+
+    align-items: center;
+
+    padding-left: 10px;
+    outline-width: 0;
+
+    width: 480px;
+    height: 56px;
+
+    background: #FAFAFC;
+
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.Email input{
+    font-family: 'Poppins', sans-serif;
+
+    padding-left: 10px;
+
+    width: 480px;
+    height: 56px;
+
+    background: #FAFAFC;
+
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.Senha input{
+    font-family: 'Poppins', sans-serif;
+
+    background-color: transparent;
+    width: 100%;
+    outline-width: 0;
+    border: none;
+
+}
+
+.Revelar{
+    color: #c5c5c5;
+    margin-right: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.Revelar:hover{
+    color: #00A9B6;
+}
+
+.Esqueceu{
+    margin-top: 20px;
+    margin-left: 45%;
+    align-items: center;
+
+    color: #9C98A6;
+
+    width: 150px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-decoration: none;
+}
+
+/* Botões */
+
+.Botoes{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Botoes h4{
+    color: #9C98A6;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin: 15px;
+}
+
+
+.Cadastrar{
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px; 
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 40px;
+    
+    position: relative;
+    width: 150px;
+    height: 56px;
+    
+    background: #A6D1D5;
+    border-radius: 8px;
+    border-style: none;
+
+    cursor: pointer;
+}
+
+.Entrar{
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1px 40px;
+    
+    position: relative;
+    width: 150px;
+    height: 56px;
+    
+    background: #00A9B6;
+    border-radius: 8px;
+    border-style: none;
+
+    cursor: pointer;
+}

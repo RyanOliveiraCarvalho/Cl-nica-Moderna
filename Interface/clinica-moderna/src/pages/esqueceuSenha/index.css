@@ -1,0 +1,102 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap'
+    );
+
+.Container{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Login */
+
+.Login{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    background: #FFFFFF;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login img{
+    margin-top: 50px;
+    width: 273px;
+    height: 79px;
+}
+
+.Login h3{
+    text-align: center !important;
+
+    color: #3F3D56;
+
+    font-family: 'Archivo', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 36px;
+}
+
+.Login h4{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    
+    text-align: center;
+    
+    color: #9C98A6;
+}
+
+.Email{
+    margin-bottom: 10px;
+}
+
+.Email input{
+    font-family: 'Poppins', sans-serif;
+
+    padding-left: 10px;
+
+    width: 480px;
+    height: 56px;
+
+    background: #FAFAFC;
+
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+/* Botões */
+
+.Botoes{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Enviar{
+    color: #fff;
+    font-family: 'Archivo', sans-serif;
+    font-size: 16px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 40px;
+    
+    position: relative;
+    width: 350px;
+    height: 56px;
+    
+    background: #00A9B6;
+    border-radius: 8px;
+    border-style: none;
+
+    cursor: pointer;
+}

@@ -1,0 +1,57 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap'
+    );
+
+.Heade{
+    background-color: #00A9B6;
+    width: 100%;
+    height: 368px;
+}
+
+.Titulos h4{
+    color: #fff;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: normal;
+
+    margin-left: 222px;
+    font-size: 16px;
+    line-height: 26px;   
+}
+
+.Titulos text{
+    color: #fff;
+
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+
+    margin-left: 222px;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+.Subgeral{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Subgeral a{
+    margin-top: 45px;
+    margin-left: 162px;
+
+    color: #fff;
+    cursor: pointer;
+    font-size: 30px;
+
+    height: 50px;
+}
+
+.Subgeral img{
+    margin-top: 26px;
+    margin-right: 165px;
+
+    width: 159px;
+    height: 46px;
+}

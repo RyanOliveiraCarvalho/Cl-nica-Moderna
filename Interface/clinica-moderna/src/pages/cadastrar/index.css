@@ -1,0 +1,25 @@
+@import url(
+    'https://fonts.googleapis.com/css2?family=Archivo:wght@100;200;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap'
+    );
+
+.V{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+}
+
+.Formulario{
+    margin-left: 27%;
+    margin-top: -150px;
+
+    position: absolute;
+    width: 736px;
+    height: 1323px;
+    
+    background-color: #FFFFFF;
+    
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    border-radius: 8px;    
+}
